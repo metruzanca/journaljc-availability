@@ -112,44 +112,20 @@ function saveChanges(
 
   // Update or add units
   for (const [residence, updatedUnit] of updatedData.entries()) {
-    const existingUnit = existingData.units[residence];
-    if (existingUnit) {
-      const latestChange = existingUnit.changes.at(-1);
-      if (!latestChange || latestChange.price !== updatedUnit.price) {
-        existingUnit.changes.push({
-          price: updatedUnit.price,
-          deleted: false,
-          timestamp: today,
-        });
-      }
-    } else {
+    if (!existingData.units[residence]) {
       existingData.units[residence] = {
         bathroom: updatedUnit.bathroom,
         bedroom: updatedUnit.bedroom,
         residence: updatedUnit.residence,
-        changes: [
-          {
-            price: updatedUnit.price,
-            deleted: false,
-            timestamp: today,
-          },
-        ],
+        changes: [],
       };
     }
-  }
 
-  // Mark units as deleted if not present in updatedData
-  for (const [residence, existingUnit] of Object.entries(existingData.units)) {
-    if (!updatedData.has(residence)) {
-      const latestChange = existingUnit.changes.at(-1);
-      if (latestChange && !latestChange.deleted) {
-        existingUnit.changes.push({
-          price: latestChange.price,
-          deleted: true,
-          timestamp: today,
-        });
-      }
-    }
+    existingData.units[residence].changes.push({
+      price: updatedUnit.price,
+      deleted: false,
+      timestamp: today,
+    });
   }
 
   fs.writeFileSync(filePath, JSON.stringify(existingData, null, 2));
@@ -159,14 +135,3 @@ function saveChanges(
 
 const data = await scrapeLiveData();
 saveChanges(data);
-
-// for testing
-// let tomorrow: Date = new Date();
-
-// for (let i = 0; i < 3; i++) {
-//   tomorrow.setDate(tomorrow.getDate() + 1);
-//   for (const [, snapshot] of data.entries()) {
-//     snapshot.price += 100;
-//   }
-//   saveChanges(data, tomorrow.toDateString());
-// }
