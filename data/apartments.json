@@ -1,283 +1,8 @@
 {
   "timestamp": 0,
   "units": {
-    "1403N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "1403N",
-      "changes": [
-        {
-          "price": 2912,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "1603N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "1603N",
-      "changes": [
-        {
-          "price": 2966,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "5903N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "5903N",
-      "changes": [
-        {
-          "price": 3083,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "3503N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "3503N",
-      "changes": [
-        {
-          "price": 3011,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "4803N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "4803N",
-      "changes": [
-        {
-          "price": 3056,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "6303N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "6303N",
-      "changes": [
-        {
-          "price": 3267,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "5003N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "5003N",
-      "changes": [
-        {
-          "price": 3038,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "1404N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "1404N",
-      "changes": [
-        {
-          "price": 2903,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "1804N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "1804N",
-      "changes": [
-        {
-          "price": 2939,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "2004N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "2004N",
-      "changes": [
-        {
-          "price": 2898,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "3004N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "3004N",
-      "changes": [
-        {
-          "price": 2984,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "4204N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "4204N",
-      "changes": [
-        {
-          "price": 2997,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "5904N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "5904N",
-      "changes": [
-        {
-          "price": 3056,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "6108N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "6108N",
-      "changes": [
-        {
-          "price": 3146,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "6308N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "6308N",
-      "changes": [
-        {
-          "price": 3200,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "1415N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "1415N",
-      "changes": [
-        {
-          "price": 2934,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "2215N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "2215N",
-      "changes": [
-        {
-          "price": 3020,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "5015N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "5015N",
-      "changes": [
-        {
-          "price": 3060,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "6015N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "6015N",
-      "changes": [
-        {
-          "price": 3105,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "5515N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "5515N",
-      "changes": [
-        {
-          "price": 3083,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "3915N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "3915N",
-      "changes": [
-        {
-          "price": 3038,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "4115N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "4115N",
-      "changes": [
-        {
-          "price": 3038,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "4315N": {
-      "bathroom": "1",
-      "bedroom": "Studio",
-      "residence": "4315N",
-      "changes": [
-        {
-          "price": 3038,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
     "4001N": {
+      "sf": 870,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "4001N",
@@ -290,6 +15,7 @@
       ]
     },
     "1401N": {
+      "sf": 870,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "1401N",
@@ -302,6 +28,7 @@
       ]
     },
     "4601N": {
+      "sf": 870,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "4601N",
@@ -314,6 +41,7 @@
       ]
     },
     "2201N": {
+      "sf": 870,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "2201N",
@@ -326,6 +54,7 @@
       ]
     },
     "5301N": {
+      "sf": 870,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "5301N",
@@ -338,6 +67,7 @@
       ]
     },
     "2702N": {
+      "sf": 730,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "2702N",
@@ -350,6 +80,7 @@
       ]
     },
     "5902N": {
+      "sf": 730,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "5902N",
@@ -362,6 +93,7 @@
       ]
     },
     "3702N": {
+      "sf": 730,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "3702N",
@@ -374,6 +106,7 @@
       ]
     },
     "5202N": {
+      "sf": 730,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "5202N",
@@ -386,6 +119,7 @@
       ]
     },
     "6302N": {
+      "sf": 730,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "6302N",
@@ -398,6 +132,7 @@
       ]
     },
     "1402N": {
+      "sf": 730,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "1402N",
@@ -410,6 +145,7 @@
       ]
     },
     "0205": {
+      "sf": 811,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "0205",
@@ -422,6 +158,7 @@
       ]
     },
     "0905": {
+      "sf": 811,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "0905",
@@ -434,6 +171,7 @@
       ]
     },
     "1805N": {
+      "sf": 811,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "1805N",
@@ -446,6 +184,7 @@
       ]
     },
     "4105N": {
+      "sf": 811,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "4105N",
@@ -458,6 +197,7 @@
       ]
     },
     "5805N": {
+      "sf": 811,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "5805N",
@@ -470,6 +210,7 @@
       ]
     },
     "4206N": {
+      "sf": 660,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "4206N",
@@ -482,6 +223,7 @@
       ]
     },
     "5506N": {
+      "sf": 660,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "5506N",
@@ -494,6 +236,7 @@
       ]
     },
     "2206N": {
+      "sf": 660,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "2206N",
@@ -506,6 +249,7 @@
       ]
     },
     "4809N": {
+      "sf": 720,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "4809N",
@@ -518,6 +262,7 @@
       ]
     },
     "6209N": {
+      "sf": 720,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "6209N",
@@ -530,6 +275,7 @@
       ]
     },
     "5110N": {
+      "sf": 675,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "5110N",
@@ -542,6 +288,7 @@
       ]
     },
     "6110N": {
+      "sf": 675,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "6110N",
@@ -554,6 +301,7 @@
       ]
     },
     "6310N": {
+      "sf": 675,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "6310N",
@@ -566,6 +314,7 @@
       ]
     },
     "1611N": {
+      "sf": 733,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "1611N",
@@ -578,6 +327,7 @@
       ]
     },
     "3711N": {
+      "sf": 733,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "3711N",
@@ -590,6 +340,7 @@
       ]
     },
     "5811N": {
+      "sf": 733,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "5811N",
@@ -602,6 +353,7 @@
       ]
     },
     "5812N": {
+      "sf": 762,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "5812N",
@@ -614,6 +366,7 @@
       ]
     },
     "4612N": {
+      "sf": 762,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "4612N",
@@ -626,6 +379,7 @@
       ]
     },
     "2013N": {
+      "sf": 616,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "2013N",
@@ -638,6 +392,7 @@
       ]
     },
     "5513N": {
+      "sf": 616,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "5513N",
@@ -650,6 +405,7 @@
       ]
     },
     "6013N": {
+      "sf": 616,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "6013N",
@@ -662,6 +418,7 @@
       ]
     },
     "3813N": {
+      "sf": 616,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "3813N",
@@ -674,168 +431,13 @@
       ]
     },
     "3913N": {
+      "sf": 616,
       "bathroom": "1",
       "bedroom": "1 Bedroom",
       "residence": "3913N",
       "changes": [
         {
           "price": 3434,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "0401": {
-      "bathroom": "2",
-      "bedroom": "2 Bedrooms",
-      "residence": "0401",
-      "changes": [
-        {
-          "price": 5085,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "0301": {
-      "bathroom": "2",
-      "bedroom": "2 Bedrooms",
-      "residence": "0301",
-      "changes": [
-        {
-          "price": 5121,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "0801": {
-      "bathroom": "2",
-      "bedroom": "2 Bedrooms",
-      "residence": "0801",
-      "changes": [
-        {
-          "price": 5265,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "1607N": {
-      "bathroom": "2",
-      "bedroom": "2 Bedrooms",
-      "residence": "1607N",
-      "changes": [
-        {
-          "price": 5396,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "5707N": {
-      "bathroom": "2",
-      "bedroom": "2 Bedrooms",
-      "residence": "5707N",
-      "changes": [
-        {
-          "price": 5666,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "3507N": {
-      "bathroom": "2",
-      "bedroom": "2 Bedrooms",
-      "residence": "3507N",
-      "changes": [
-        {
-          "price": 5445,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "1514N": {
-      "bathroom": "2",
-      "bedroom": "2 Bedrooms",
-      "residence": "1514N",
-      "changes": [
-        {
-          "price": 5265,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "1614N": {
-      "bathroom": "2",
-      "bedroom": "2 Bedrooms",
-      "residence": "1614N",
-      "changes": [
-        {
-          "price": 5265,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "3214N": {
-      "bathroom": "2",
-      "bedroom": "2 Bedrooms",
-      "residence": "3214N",
-      "changes": [
-        {
-          "price": 5310,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "5014N": {
-      "bathroom": "2",
-      "bedroom": "2 Bedrooms",
-      "residence": "5014N",
-      "changes": [
-        {
-          "price": 5355,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "6314N": {
-      "bathroom": "2",
-      "bedroom": "2 Bedrooms",
-      "residence": "6314N",
-      "changes": [
-        {
-          "price": 5540,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "0206": {
-      "bathroom": "2",
-      "bedroom": "3 Bedrooms",
-      "residence": "0206",
-      "changes": [
-        {
-          "price": 6300,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "0706": {
-      "bathroom": "2",
-      "bedroom": "3 Bedrooms",
-      "residence": "0706",
-      "changes": [
-        {
-          "price": 6570,
           "deleted": false,
           "timestamp": "Thu Aug 14 2025"
         }
