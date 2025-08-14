@@ -1,0 +1,16 @@
+{
+  "name": "playwright-scraper",
+  "version": "1.0.0",
+  "description": "A Playwright script to scrape data.",
+  "main": "scrape.ts",
+  "scripts": {
+    "start": "bun run scrape.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.2.1",
+    "playwright": "^1.x.x"
+  }
+}

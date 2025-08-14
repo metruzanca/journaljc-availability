@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apartment Prices</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <canvas id="apartmentChart" width="400" height="200"></canvas>
+    <script>
+      async function fetchApartmentData() {
+        const response = await fetch("data/apartments.json");
+        const data = await response.json();
+        return data;
+      }
+
+      async function createChart() {
+        const apartmentData = await fetchApartmentData();
+
+        const datasets = [];
+        const labels = new Set();
+
+        for (const unitKey in apartmentData.units) {
+          const unit = apartmentData.units[unitKey];
+          if (unit.bedroom !== "1 Bedroom") continue;
+
+          const prices = [];
+
+          unit.changes.forEach((change) => {
+            if (!change.deleted) {
+              labels.add(change.timestamp);
+              prices.push(change.price);
+            }
+          });
+
+          datasets.push({
+            label: unit.residence,
+            data: prices,
+            borderColor: `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(
+              Math.random() * 255
+            )}, ${Math.floor(Math.random() * 255)}, 1)`,
+            backgroundColor: `rgba(${Math.floor(
+              Math.random() * 255
+            )}, ${Math.floor(Math.random() * 255)}, ${Math.floor(
+              Math.random() * 255
+            )}, 0.2)`,
+            borderWidth: 1,
+          });
+        }
+
+        const ctx = document.getElementById("apartmentChart").getContext("2d");
+        new Chart(ctx, {
+          type: "line",
+          data: {
+            labels: Array.from(labels),
+            datasets: datasets,
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                position: "top",
+              },
+              title: {
+                display: true,
+                text: "Apartment Prices Over Time",
+              },
+            },
+            scales: {
+              x: {
+                title: {
+                  display: true,
+                  text: "Date",
+                },
+              },
+              y: {
+                title: {
+                  display: true,
+                  text: "Price",
+                },
+              },
+            },
+          },
+        });
+      }
+
+      createChart();
+    </script>
+  </body>
+</html>

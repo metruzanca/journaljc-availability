@@ -1,0 +1,45 @@
+name: Daily Website Scraper and Committer (Bun + TS)
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v1 # Use Bun setup action
+        with:
+          bun-version: latest # Or a specific version like '1.1.x'
+
+      - name: Install dependencies (with Bun)
+        # Bun automatically handles `package.json` and `node_modules` equivalent
+        run: bun install
+
+      - name: Install Playwright browsers
+        # Playwright still needs its browsers installed,
+        # but Bun might handle some of the deps that npm --with-deps would.
+        # It's safer to keep this line for now.
+        run: bunx playwright install --with-deps
+
+      - name: Run Playwright Scraper (with Bun)
+        # Bun directly executes TypeScript files
+        run: bun start
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Automated: Scrape results for ${{ github.event.repository.name }} - ${{ env.DATE_STAMP }}"
+          file_pattern: "data/*.json"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
