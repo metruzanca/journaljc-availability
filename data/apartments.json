@@ -1,1364 +1,1289 @@
 {
-  "timestamp": 0,
-  "units": {
-    "4001N": {
-      "sf": 870,
-      "bathroom": "1",
-      "bedroom": "1 Bedroom",
+  "units": [
+    {
       "residence": "4001N",
-      "changes": [
-        {
-          "price": 3749,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3749,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        }
-      ]
-    },
-    "1401N": {
-      "sf": 870,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 870
+    },
+    {
       "residence": "1401N",
-      "changes": [
-        {
-          "price": 3515,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3515,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3515,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3515,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3515,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3515,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3515,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        }
-      ]
-    },
-    "4601N": {
-      "sf": 870,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 870
+    },
+    {
       "residence": "4601N",
-      "changes": [
-        {
-          "price": 3713,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3713,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        }
-      ]
-    },
-    "2201N": {
-      "sf": 870,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 870
+    },
+    {
       "residence": "2201N",
-      "changes": [
-        {
-          "price": 3641,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3641,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3641,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        }
-      ]
-    },
-    "5301N": {
-      "sf": 870,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 870
+    },
+    {
       "residence": "5301N",
-      "changes": [
-        {
-          "price": 3843,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3843,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3843,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3843,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        }
-      ]
-    },
-    "2702N": {
-      "sf": 730,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 870
+    },
+    {
       "residence": "2702N",
-      "changes": [
-        {
-          "price": 3641,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3641,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3641,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3641,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3641,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3641,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3641,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3641,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "5902N": {
-      "sf": 730,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 730
+    },
+    {
       "residence": "5902N",
-      "changes": [
-        {
-          "price": 3704,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3704,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3704,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        }
-      ]
-    },
-    "3702N": {
-      "sf": 730,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 730
+    },
+    {
       "residence": "3702N",
-      "changes": [
-        {
-          "price": 3659,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3659,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3659,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3659,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3659,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3659,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3659,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        }
-      ]
-    },
-    "5202N": {
-      "sf": 730,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 730
+    },
+    {
       "residence": "5202N",
-      "changes": [
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "6302N": {
-      "sf": 730,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 730
+    },
+    {
       "residence": "6302N",
-      "changes": [
-        {
-          "price": 3888,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3888,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3888,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3888,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3888,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3888,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3888,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3888,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "1402N": {
-      "sf": 730,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 730
+    },
+    {
       "residence": "1402N",
-      "changes": [
-        {
-          "price": 3488,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3488,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3488,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3488,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3488,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3488,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3488,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3488,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "0205": {
-      "sf": 811,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 730
+    },
+    {
       "residence": "0205",
-      "changes": [
-        {
-          "price": 3456,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3456,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3456,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3456,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3456,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3456,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3456,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3456,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "0905": {
-      "sf": 811,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 811
+    },
+    {
       "residence": "0905",
-      "changes": [
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "1805N": {
-      "sf": 811,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 811
+    },
+    {
       "residence": "1805N",
-      "changes": [
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3686,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        }
-      ]
-    },
-    "4105N": {
-      "sf": 811,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 811
+    },
+    {
       "residence": "4105N",
-      "changes": [
-        {
-          "price": 3821,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3821,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3821,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3821,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3821,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        }
-      ]
-    },
-    "5805N": {
-      "sf": 811,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 811
+    },
+    {
       "residence": "5805N",
-      "changes": [
-        {
-          "price": 3956,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3956,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3956,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3956,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3956,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3956,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3956,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3956,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "4206N": {
-      "sf": 660,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 811
+    },
+    {
       "residence": "4206N",
-      "changes": [
-        {
-          "price": 3506,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3506,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3506,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3506,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "5506N": {
-      "sf": 660,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 660
+    },
+    {
       "residence": "5506N",
-      "changes": [
-        {
-          "price": 3546,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3546,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3546,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3546,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3546,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3546,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3546,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3546,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "2206N": {
-      "sf": 660,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 660
+    },
+    {
       "residence": "2206N",
-      "changes": [
-        {
-          "price": 3443,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3443,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        }
-      ]
-    },
-    "4809N": {
-      "sf": 720,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 660
+    },
+    {
       "residence": "4809N",
-      "changes": [
-        {
-          "price": 3506,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3506,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3506,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3506,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3506,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3506,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3506,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3506,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "6209N": {
-      "sf": 720,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 720
+    },
+    {
       "residence": "6209N",
-      "changes": [
-        {
-          "price": 3569,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3569,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3569,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3569,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3569,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3569,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3569,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3569,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "5110N": {
-      "sf": 675,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 720
+    },
+    {
       "residence": "5110N",
-      "changes": [
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        }
-      ]
-    },
-    "6110N": {
-      "sf": 675,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 675
+    },
+    {
       "residence": "6110N",
-      "changes": [
-        {
-          "price": 3479,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3479,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3479,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3479,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3479,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3479,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3479,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3479,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "6310N": {
-      "sf": 675,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 675
+    },
+    {
       "residence": "6310N",
-      "changes": [
-        {
-          "price": 3573,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3573,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3573,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3573,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3573,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3573,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3573,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3573,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "1611N": {
-      "sf": 733,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 675
+    },
+    {
       "residence": "1611N",
-      "changes": [
-        {
-          "price": 3452,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3452,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        }
-      ]
-    },
-    "3711N": {
-      "sf": 733,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 733
+    },
+    {
       "residence": "3711N",
-      "changes": [
-        {
-          "price": 3533,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3533,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3533,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3533,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3533,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3533,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        }
-      ]
-    },
-    "5811N": {
-      "sf": 733,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 733
+    },
+    {
       "residence": "5811N",
-      "changes": [
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "5812N": {
-      "sf": 762,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 733
+    },
+    {
       "residence": "5812N",
-      "changes": [
-        {
-          "price": 3803,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3803,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3803,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3803,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3803,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        }
-      ]
-    },
-    "4612N": {
-      "sf": 762,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 762
+    },
+    {
       "residence": "4612N",
-      "changes": [
-        {
-          "price": 3771,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3771,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3771,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3771,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3771,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3771,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3771,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3771,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "2013N": {
-      "sf": 616,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 762
+    },
+    {
       "residence": "2013N",
-      "changes": [
-        {
-          "price": 3416,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        }
-      ]
-    },
-    "5513N": {
-      "sf": 616,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 616
+    },
+    {
       "residence": "5513N",
-      "changes": [
-        {
-          "price": 3501,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3501,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3501,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3501,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3501,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        }
-      ]
-    },
-    "6013N": {
-      "sf": 616,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 616
+    },
+    {
       "residence": "6013N",
-      "changes": [
-        {
-          "price": 3524,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3524,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3524,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3524,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        },
-        {
-          "price": 3524,
-          "deleted": false,
-          "timestamp": "Mon Aug 18 2025"
-        },
-        {
-          "price": 3524,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3524,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3524,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "3813N": {
-      "sf": 616,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 616
+    },
+    {
       "residence": "3813N",
-      "changes": [
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "3913N": {
-      "sf": 616,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 616
+    },
+    {
       "residence": "3913N",
-      "changes": [
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Thu Aug 14 2025"
-        },
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Fri Aug 15 2025"
-        },
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Sat Aug 16 2025"
-        },
-        {
-          "price": 3434,
-          "deleted": false,
-          "timestamp": "Sun Aug 17 2025"
-        }
-      ]
-    },
-    "0805": {
-      "sf": 855,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 616
+    },
+    {
       "residence": "0805",
-      "changes": [
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3596,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "1813N": {
-      "sf": 616,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 855
+    },
+    {
       "residence": "1813N",
-      "changes": [
-        {
-          "price": 3416,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3416,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3416,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "5313N": {
-      "sf": 616,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 616
+    },
+    {
       "residence": "5313N",
-      "changes": [
-        {
-          "price": 3501,
-          "deleted": false,
-          "timestamp": "Tue Aug 19 2025"
-        },
-        {
-          "price": 3501,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3501,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
-    },
-    "2011N": {
-      "sf": 733,
-      "bathroom": "1",
       "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 616
+    },
+    {
       "residence": "2011N",
-      "changes": [
-        {
-          "price": 3461,
-          "deleted": false,
-          "timestamp": "Wed Aug 20 2025"
-        },
-        {
-          "price": 3461,
-          "deleted": false,
-          "timestamp": "Thu Aug 21 2025"
-        }
-      ]
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 733
     }
-  }
+  ],
+  "prices": [
+    {
+      "residence": "4001N",
+      "price": 3749,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "4001N",
+      "price": 3749,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "1401N",
+      "price": 3515,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "1401N",
+      "price": 3515,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "1401N",
+      "price": 3515,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "1401N",
+      "price": 3515,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "1401N",
+      "price": 3515,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "1401N",
+      "price": 3515,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "1401N",
+      "price": 3515,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "4601N",
+      "price": 3713,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "4601N",
+      "price": 3713,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "2201N",
+      "price": 3641,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "2201N",
+      "price": 3641,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "2201N",
+      "price": 3641,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "5301N",
+      "price": 3843,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "5301N",
+      "price": 3843,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "5301N",
+      "price": 3843,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "5301N",
+      "price": 3843,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "2702N",
+      "price": 3641,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "2702N",
+      "price": 3641,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "2702N",
+      "price": 3641,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "2702N",
+      "price": 3641,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "2702N",
+      "price": 3641,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "2702N",
+      "price": 3641,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "2702N",
+      "price": 3641,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "2702N",
+      "price": 3641,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "5902N",
+      "price": 3704,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "5902N",
+      "price": 3704,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "5902N",
+      "price": 3704,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "3702N",
+      "price": 3659,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "3702N",
+      "price": 3659,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "3702N",
+      "price": 3659,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "3702N",
+      "price": 3659,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "3702N",
+      "price": 3659,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "3702N",
+      "price": 3659,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "3702N",
+      "price": 3659,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "5202N",
+      "price": 3686,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "5202N",
+      "price": 3686,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "5202N",
+      "price": 3686,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "5202N",
+      "price": 3686,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "5202N",
+      "price": 3686,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "5202N",
+      "price": 3686,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "5202N",
+      "price": 3686,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "5202N",
+      "price": 3686,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "6302N",
+      "price": 3888,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "6302N",
+      "price": 3888,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "6302N",
+      "price": 3888,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "6302N",
+      "price": 3888,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "6302N",
+      "price": 3888,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "6302N",
+      "price": 3888,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "6302N",
+      "price": 3888,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "6302N",
+      "price": 3888,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "1402N",
+      "price": 3488,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "1402N",
+      "price": 3488,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "1402N",
+      "price": 3488,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "1402N",
+      "price": 3488,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "1402N",
+      "price": 3488,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "1402N",
+      "price": 3488,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "1402N",
+      "price": 3488,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "1402N",
+      "price": 3488,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "0205",
+      "price": 3456,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "0205",
+      "price": 3456,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "0205",
+      "price": 3456,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "0205",
+      "price": 3456,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "0205",
+      "price": 3456,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "0205",
+      "price": 3456,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "0205",
+      "price": 3456,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "0205",
+      "price": 3456,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "0905",
+      "price": 3596,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "0905",
+      "price": 3596,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "0905",
+      "price": 3596,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "0905",
+      "price": 3596,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "0905",
+      "price": 3596,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "0905",
+      "price": 3596,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "0905",
+      "price": 3596,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "0905",
+      "price": 3596,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "1805N",
+      "price": 3686,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "1805N",
+      "price": 3686,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "1805N",
+      "price": 3686,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "1805N",
+      "price": 3686,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "1805N",
+      "price": 3686,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "1805N",
+      "price": 3686,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "1805N",
+      "price": 3686,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "4105N",
+      "price": 3821,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "4105N",
+      "price": 3821,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "4105N",
+      "price": 3821,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "4105N",
+      "price": 3821,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "4105N",
+      "price": 3821,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "5805N",
+      "price": 3956,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "5805N",
+      "price": 3956,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "5805N",
+      "price": 3956,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "5805N",
+      "price": 3956,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "5805N",
+      "price": 3956,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "5805N",
+      "price": 3956,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "5805N",
+      "price": 3956,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "5805N",
+      "price": 3956,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "4206N",
+      "price": 3506,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "4206N",
+      "price": 3506,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "4206N",
+      "price": 3506,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "4206N",
+      "price": 3506,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "5506N",
+      "price": 3546,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "5506N",
+      "price": 3546,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "5506N",
+      "price": 3546,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "5506N",
+      "price": 3546,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "5506N",
+      "price": 3546,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "5506N",
+      "price": 3546,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "5506N",
+      "price": 3546,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "5506N",
+      "price": 3546,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "2206N",
+      "price": 3443,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "2206N",
+      "price": 3443,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "4809N",
+      "price": 3506,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "4809N",
+      "price": 3506,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "4809N",
+      "price": 3506,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "4809N",
+      "price": 3506,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "4809N",
+      "price": 3506,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "4809N",
+      "price": 3506,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "4809N",
+      "price": 3506,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "4809N",
+      "price": 3506,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "6209N",
+      "price": 3569,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "6209N",
+      "price": 3569,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "6209N",
+      "price": 3569,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "6209N",
+      "price": 3569,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "6209N",
+      "price": 3569,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "6209N",
+      "price": 3569,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "6209N",
+      "price": 3569,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "6209N",
+      "price": 3569,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "5110N",
+      "price": 3434,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "5110N",
+      "price": 3434,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "5110N",
+      "price": 3434,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "5110N",
+      "price": 3434,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "5110N",
+      "price": 3434,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "5110N",
+      "price": 3434,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "6110N",
+      "price": 3479,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "6110N",
+      "price": 3479,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "6110N",
+      "price": 3479,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "6110N",
+      "price": 3479,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "6110N",
+      "price": 3479,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "6110N",
+      "price": 3479,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "6110N",
+      "price": 3479,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "6110N",
+      "price": 3479,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "6310N",
+      "price": 3573,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "6310N",
+      "price": 3573,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "6310N",
+      "price": 3573,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "6310N",
+      "price": 3573,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "6310N",
+      "price": 3573,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "6310N",
+      "price": 3573,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "6310N",
+      "price": 3573,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "6310N",
+      "price": 3573,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "1611N",
+      "price": 3452,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "1611N",
+      "price": 3452,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "3711N",
+      "price": 3533,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "3711N",
+      "price": 3533,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "3711N",
+      "price": 3533,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "3711N",
+      "price": 3533,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "3711N",
+      "price": 3533,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "3711N",
+      "price": 3533,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "5811N",
+      "price": 3596,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "5811N",
+      "price": 3596,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "5811N",
+      "price": 3596,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "5811N",
+      "price": 3596,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "5811N",
+      "price": 3596,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "5811N",
+      "price": 3596,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "5811N",
+      "price": 3596,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "5811N",
+      "price": 3596,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "5812N",
+      "price": 3803,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "5812N",
+      "price": 3803,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "5812N",
+      "price": 3803,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "5812N",
+      "price": 3803,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "5812N",
+      "price": 3803,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "4612N",
+      "price": 3771,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "4612N",
+      "price": 3771,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "4612N",
+      "price": 3771,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "4612N",
+      "price": 3771,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "4612N",
+      "price": 3771,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "4612N",
+      "price": 3771,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "4612N",
+      "price": 3771,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "4612N",
+      "price": 3771,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "2013N",
+      "price": 3416,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "5513N",
+      "price": 3501,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "5513N",
+      "price": 3501,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "5513N",
+      "price": 3501,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "5513N",
+      "price": 3501,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "5513N",
+      "price": 3501,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "6013N",
+      "price": 3524,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "6013N",
+      "price": 3524,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "6013N",
+      "price": 3524,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "6013N",
+      "price": 3524,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "6013N",
+      "price": 3524,
+      "timestamp": "Mon Aug 18 2025"
+    },
+    {
+      "residence": "6013N",
+      "price": 3524,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "6013N",
+      "price": 3524,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "6013N",
+      "price": 3524,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "3813N",
+      "price": 3434,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "3813N",
+      "price": 3434,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "3813N",
+      "price": 3434,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "3813N",
+      "price": 3434,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "3813N",
+      "price": 3434,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "3913N",
+      "price": 3434,
+      "timestamp": "Thu Aug 14 2025"
+    },
+    {
+      "residence": "3913N",
+      "price": 3434,
+      "timestamp": "Fri Aug 15 2025"
+    },
+    {
+      "residence": "3913N",
+      "price": 3434,
+      "timestamp": "Sat Aug 16 2025"
+    },
+    {
+      "residence": "3913N",
+      "price": 3434,
+      "timestamp": "Sun Aug 17 2025"
+    },
+    {
+      "residence": "0805",
+      "price": 3596,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "0805",
+      "price": 3596,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "0805",
+      "price": 3596,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "1813N",
+      "price": 3416,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "1813N",
+      "price": 3416,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "1813N",
+      "price": 3416,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "5313N",
+      "price": 3501,
+      "timestamp": "Tue Aug 19 2025"
+    },
+    {
+      "residence": "5313N",
+      "price": 3501,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "5313N",
+      "price": 3501,
+      "timestamp": "Thu Aug 21 2025"
+    },
+    {
+      "residence": "2011N",
+      "price": 3461,
+      "timestamp": "Wed Aug 20 2025"
+    },
+    {
+      "residence": "2011N",
+      "price": 3461,
+      "timestamp": "Thu Aug 21 2025"
+    }
+  ]
 }

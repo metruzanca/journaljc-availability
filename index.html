@@ -21,33 +21,45 @@
         const datasets = [];
         const labels = new Set();
 
-        for (const unitKey in apartmentData.units) {
-          const unit = apartmentData.units[unitKey];
-          if (unit.bedroom !== "1 Bedroom") continue;
+        // Group prices by residence
+        const pricesByResidence = {};
 
-          const prices = [];
-
-          unit.changes.forEach((change) => {
-            if (!change.deleted) {
-              labels.add(change.timestamp);
-              prices.push(change.price);
-            }
+        apartmentData.prices.forEach((price) => {
+          if (!pricesByResidence[price.residence]) {
+            pricesByResidence[price.residence] = [];
+          }
+          pricesByResidence[price.residence].push({
+            price: price.price,
+            timestamp: price.timestamp,
           });
+          labels.add(price.timestamp);
+        });
 
-          datasets.push({
-            label: unit.residence,
-            data: prices,
-            borderColor: `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(
-              Math.random() * 255
-            )}, ${Math.floor(Math.random() * 255)}, 1)`,
-            backgroundColor: `rgba(${Math.floor(
-              Math.random() * 255
-            )}, ${Math.floor(Math.random() * 255)}, ${Math.floor(
-              Math.random() * 255
-            )}, 0.2)`,
-            borderWidth: 1,
-          });
-        }
+        // Create datasets for each unit
+        apartmentData.units.forEach((unit) => {
+          if (unit.bedroom !== "1 Bedroom") return;
+
+          const unitPrices = pricesByResidence[unit.residence] || [];
+          const prices = unitPrices.map((p) => p.price);
+
+          if (prices.length > 0) {
+            datasets.push({
+              label: unit.residence,
+              data: prices,
+              borderColor: `rgba(${Math.floor(
+                Math.random() * 255
+              )}, ${Math.floor(Math.random() * 255)}, ${Math.floor(
+                Math.random() * 255
+              )}, 1)`,
+              backgroundColor: `rgba(${Math.floor(
+                Math.random() * 255
+              )}, ${Math.floor(Math.random() * 255)}, ${Math.floor(
+                Math.random() * 255
+              )}, 0.2)`,
+              borderWidth: 1,
+            });
+          }
+        });
 
         const ctx = document.getElementById("apartmentChart").getContext("2d");
         new Chart(ctx, {

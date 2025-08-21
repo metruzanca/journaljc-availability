@@ -2,22 +2,22 @@ import { chromium, type Browser, type Page } from "playwright";
 import * as fs from "fs";
 import * as path from "path";
 
-type AptUnit = {
+type Unit = {
   residence: string;
   bedroom: string;
   bathroom: string;
-  changes: Array<{
-    price: number;
-    deleted: boolean;
-    timestamp: string;
-  }>;
-  sf: number;
+  size: number;
 };
 
-type Data = {
-  timestamp: number;
-  units: Record<string, AptUnit>;
-  // floor_plans: Array<string>;
+type Price = {
+  residence: string;
+  price: number;
+  timestamp: string;
+};
+
+type NormalizedData = {
+  units: Unit[];
+  prices: Price[];
 };
 
 enum Headers {
@@ -121,13 +121,13 @@ async function scrapeLiveData(): Promise<Map<string, UnitSnapshot>> {
   return data;
 }
 
-function parseDataJson(data: string): Data {
+function parseDataJson(data: string): NormalizedData {
   try {
     return JSON.parse(data);
   } catch {
     return {
-      timestamp: 0,
-      units: {} as Record<string, AptUnit>,
+      units: [],
+      prices: [],
     };
   }
 }
@@ -148,29 +148,45 @@ function saveChanges(
     fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf-8") : ""
   );
 
-  // Update or add units
-  for (const [residence, updatedUnit] of updatedData.entries()) {
-    if (!existingData.units[residence]) {
-      existingData.units[residence] = {
-        sf: updatedUnit.sf,
-        bathroom: updatedUnit.bathroom,
-        bedroom: updatedUnit.bedroom,
-        residence: updatedUnit.residence,
-        changes: [],
-      };
-    }
-
-    existingData.units[residence].changes.push({
-      price: updatedUnit.price,
-      deleted: false,
-      timestamp: today,
-    });
+  // Create a map of existing units for quick lookup
+  const existingUnitsMap = new Map<string, Unit>();
+  for (const unit of existingData.units) {
+    existingUnitsMap.set(unit.residence, unit);
   }
+
+  // Update or add units and prices
+  for (const [residence, updatedUnit] of updatedData.entries()) {
+    // Add or update unit information
+    const unit: Unit = {
+      residence: updatedUnit.residence,
+      bedroom: updatedUnit.bedroom,
+      bathroom: updatedUnit.bathroom,
+      size: updatedUnit.sf,
+    };
+
+    existingUnitsMap.set(residence, unit);
+
+    // Add price record
+    const price: Price = {
+      residence: updatedUnit.residence,
+      price: updatedUnit.price,
+      timestamp: today,
+    };
+
+    existingData.prices.push(price);
+  }
+
+  // Convert units map back to array
+  existingData.units = Array.from(existingUnitsMap.values());
 
   fs.writeFileSync(filePath, JSON.stringify(existingData, null, 2));
 
   console.log(`Scraping successful! Data saved to ${filePath}`);
 }
 
-const data = await scrapeLiveData();
-saveChanges(data);
+async function main() {
+  const data = await scrapeLiveData();
+  saveChanges(data);
+}
+
+main().catch(console.error);
