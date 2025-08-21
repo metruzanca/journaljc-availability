@@ -5,9 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apartment Prices</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      .chart-container {
+        margin: 20px 0;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+      }
+      .chart-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+      canvas {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
   </head>
   <body>
-    <canvas id="apartmentChart" width="400" height="200"></canvas>
+    <div id="chartsContainer"></div>
     <script>
       async function fetchApartmentData() {
         const response = await fetch("data/apartments.json");
@@ -15,16 +33,24 @@
         return data;
       }
 
-      async function createChart() {
-        const apartmentData = await fetchApartmentData();
+      function generateRandomColor() {
+        return `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(
+          Math.random() * 255
+        )}, ${Math.floor(Math.random() * 255)}, 1)`;
+      }
 
+      function generateBackgroundColor(borderColor) {
+        return borderColor.replace("1)", "0.2)");
+      }
+
+      function createChartForSite(siteName, siteData, container) {
         const datasets = [];
         const labels = new Set();
 
-        // Group prices by residence
+        // Group prices by residence for this site
         const pricesByResidence = {};
 
-        apartmentData.prices.forEach((price) => {
+        siteData.prices.forEach((price) => {
           if (!pricesByResidence[price.residence]) {
             pricesByResidence[price.residence] = [];
           }
@@ -35,37 +61,54 @@
           labels.add(price.timestamp);
         });
 
-        // Create datasets for each unit
-        apartmentData.units.forEach((unit) => {
+        // Create datasets for each unit in this site
+        siteData.units.forEach((unit) => {
           if (unit.bedroom !== "1 Bedroom") return;
 
           const unitPrices = pricesByResidence[unit.residence] || [];
           const prices = unitPrices.map((p) => p.price);
 
           if (prices.length > 0) {
+            const borderColor = generateRandomColor();
             datasets.push({
               label: unit.residence,
               data: prices,
-              borderColor: `rgba(${Math.floor(
-                Math.random() * 255
-              )}, ${Math.floor(Math.random() * 255)}, ${Math.floor(
-                Math.random() * 255
-              )}, 1)`,
-              backgroundColor: `rgba(${Math.floor(
-                Math.random() * 255
-              )}, ${Math.floor(Math.random() * 255)}, ${Math.floor(
-                Math.random() * 255
-              )}, 0.2)`,
+              borderColor: borderColor,
+              backgroundColor: generateBackgroundColor(borderColor),
               borderWidth: 1,
             });
           }
         });
 
-        const ctx = document.getElementById("apartmentChart").getContext("2d");
+        if (datasets.length === 0) {
+          return; // Don't create chart if no data
+        }
+
+        // Create chart container
+        const chartDiv = document.createElement("div");
+        chartDiv.className = "chart-container";
+
+        const title = document.createElement("div");
+        title.className = "chart-title";
+        title.textContent = `${
+          siteName.charAt(0).toUpperCase() + siteName.slice(1)
+        } - Apartment Prices Over Time`;
+        chartDiv.appendChild(title);
+
+        const canvas = document.createElement("canvas");
+        canvas.id = `chart-${siteName}`;
+        canvas.width = 400;
+        canvas.height = 200;
+        chartDiv.appendChild(canvas);
+
+        container.appendChild(chartDiv);
+
+        // Create the chart
+        const ctx = canvas.getContext("2d");
         new Chart(ctx, {
           type: "line",
           data: {
-            labels: Array.from(labels),
+            labels: Array.from(labels).sort(),
             datasets: datasets,
           },
           options: {
@@ -73,10 +116,6 @@
             plugins: {
               legend: {
                 position: "top",
-              },
-              title: {
-                display: true,
-                text: "Apartment Prices Over Time",
               },
             },
             scales: {
@@ -89,7 +128,7 @@
               y: {
                 title: {
                   display: true,
-                  text: "Price",
+                  text: "Price ($)",
                 },
               },
             },
@@ -97,7 +136,41 @@
         });
       }
 
-      createChart();
+      async function createCharts() {
+        const apartmentData = await fetchApartmentData();
+
+        // Group data by site
+        const dataBySite = {};
+
+        apartmentData.units.forEach((unit) => {
+          if (!dataBySite[unit.site]) {
+            dataBySite[unit.site] = {
+              units: [],
+              prices: [],
+            };
+          }
+          dataBySite[unit.site].units.push(unit);
+        });
+
+        apartmentData.prices.forEach((price) => {
+          if (!dataBySite[price.site]) {
+            dataBySite[price.site] = {
+              units: [],
+              prices: [],
+            };
+          }
+          dataBySite[price.site].prices.push(price);
+        });
+
+        const container = document.getElementById("chartsContainer");
+
+        // Create a chart for each site
+        Object.keys(dataBySite).forEach((siteName) => {
+          createChartForSite(siteName, dataBySite[siteName], container);
+        });
+      }
+
+      createCharts();
     </script>
   </body>
 </html>

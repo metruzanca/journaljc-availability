@@ -1,4 +1,3 @@
-import { chromium, type Browser, type Page } from "playwright";
 import * as fs from "fs";
 import * as path from "path";
 
@@ -7,12 +6,14 @@ type Unit = {
   bedroom: string;
   bathroom: string;
   size: number;
+  site: string;
 };
 
 type Price = {
   residence: string;
   price: number;
   timestamp: string;
+  site: string;
 };
 
 type NormalizedData = {
@@ -20,106 +21,14 @@ type NormalizedData = {
   prices: Price[];
 };
 
-enum Headers {
-  residence = 0,
-  bedroom = 1,
-  bathroom = 2,
-  floor_plan = 3,
-  price = 4,
-}
-
-function getPrice(str: string): number {
-  return parseFloat(str.replace(/[$*]/g, "").replace(/,/g, ""));
-}
-
-const DAY_IN_MS = 86400000;
-
 type UnitSnapshot = {
   residence: string;
   bedroom: string;
   bathroom: string;
   price: number;
   sf: number;
+  site: string;
 };
-
-async function getSquareFoot(page: Page) {
-  const text = await page.getByText(/\d+\s?SF/).textContent()!;
-
-  // Use regex to extract just the number part from the text
-  const numberMatch = text?.match(/\d+/);
-  return numberMatch ? +numberMatch[0] : 0;
-}
-
-async function scrapeLiveData(): Promise<Map<string, UnitSnapshot>> {
-  let browser: Browser | undefined; // Declare browser variable outside try-block
-  let page: Page | undefined; // Declare page variable outside try-block
-  const urlToScrape: string = "https://www.journaljc.com/availability"; // Replace with your target URL
-
-  const data = new Map<string, UnitSnapshot>();
-
-  try {
-    browser = await chromium.launch();
-    page = await browser.newPage();
-
-    await page.goto(urlToScrape);
-
-    const floor_plans = new Map<string, number>();
-
-    const rows = await page.$$(".tableRow[data-residence]");
-    for (let i = 0; i < rows.length; i++) {
-      const row = rows[i];
-      const cells = await row.$$("div");
-
-      const bedroom = (await cells[Headers.bedroom].textContent())!;
-
-      // Skip for non 1 bed
-      if (bedroom !== "1 Bedroom") continue;
-
-      const priceStr = await cells[Headers.price].textContent();
-      const residence = (await cells[Headers.residence].textContent()) ?? "";
-
-      const plan = residence.substring(2, 4);
-
-      if (!floor_plans.has(plan)) {
-        await cells[Headers.floor_plan].click();
-        await page.waitForTimeout(500);
-        await page.screenshot({
-          path: path.join(__dirname, "data", `${bedroom}-${plan}-.png`),
-        });
-
-        const sf = await getSquareFoot(page);
-        await page.getByRole("button", { name: "Back" }).click();
-
-        floor_plans.set(plan, sf);
-      }
-
-      const unit: UnitSnapshot = {
-        residence,
-        bedroom,
-        bathroom: (await cells[Headers.bathroom].textContent()) ?? "",
-        price: priceStr ? getPrice(priceStr) : 0,
-        sf: floor_plans.get(plan) ?? 0,
-      };
-
-      data.set(unit.residence, unit);
-      console.log(`Unit ${i + 1}/${rows.length}:`);
-    }
-  } catch (error: unknown) {
-    // Use unknown for caught errors
-    if (error instanceof Error) {
-      console.error("Scraping failed:", error.message);
-    } else {
-      console.error("An unknown error occurred during scraping:", error);
-    }
-    process.exit(1);
-  } finally {
-    if (browser) {
-      await browser.close();
-    }
-  }
-
-  return data;
-}
 
 function parseDataJson(data: string): NormalizedData {
   try {
@@ -130,6 +39,45 @@ function parseDataJson(data: string): NormalizedData {
       prices: [],
     };
   }
+}
+
+async function runAllSiteScrapers(): Promise<Map<string, UnitSnapshot>> {
+  const sitesDir = path.join(__dirname, "sites");
+  const allData = new Map<string, UnitSnapshot>();
+
+  // Get all TypeScript files in the sites directory
+  const siteFiles = fs
+    .readdirSync(sitesDir)
+    .filter((file) => file.endsWith(".ts") && !file.endsWith(".d.ts"));
+
+  for (const siteFile of siteFiles) {
+    try {
+      console.log(`Running scraper for ${siteFile}...`);
+      const siteModule = await import(path.join(sitesDir, siteFile));
+      const scraper = siteModule.default;
+
+      if (typeof scraper === "function") {
+        const siteData = await scraper();
+
+        // Merge site data into all data
+        for (const [residence, unit] of siteData.entries()) {
+          allData.set(residence, unit);
+        }
+
+        console.log(
+          `Successfully scraped ${siteData.size} units from ${siteFile}`
+        );
+      } else {
+        console.error(
+          `Invalid scraper in ${siteFile}: default export is not a function`
+        );
+      }
+    } catch (error) {
+      console.error(`Failed to run scraper for ${siteFile}:`, error);
+    }
+  }
+
+  return allData;
 }
 
 function saveChanges(
@@ -162,6 +110,7 @@ function saveChanges(
       bedroom: updatedUnit.bedroom,
       bathroom: updatedUnit.bathroom,
       size: updatedUnit.sf,
+      site: updatedUnit.site,
     };
 
     existingUnitsMap.set(residence, unit);
@@ -171,6 +120,7 @@ function saveChanges(
       residence: updatedUnit.residence,
       price: updatedUnit.price,
       timestamp: today,
+      site: updatedUnit.site,
     };
 
     existingData.prices.push(price);
@@ -185,7 +135,7 @@ function saveChanges(
 }
 
 async function main() {
-  const data = await scrapeLiveData();
+  const data = await runAllSiteScrapers();
   saveChanges(data);
 }
 
