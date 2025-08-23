@@ -108,7 +108,9 @@
         new Chart(ctx, {
           type: "line",
           data: {
-            labels: Array.from(labels).sort(),
+            labels: Array.from(labels).sort(
+              (a, b) => new Date(a) - new Date(b)
+            ),
             datasets: datasets,
           },
           options: {
