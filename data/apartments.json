@@ -1647,6 +1647,102 @@
       "price": 3501,
       "timestamp": "Fri Aug 22 2025",
       "site": "journaljc"
+    },
+    {
+      "residence": "3702N",
+      "price": 3659,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "5202N",
+      "price": 3686,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "6302N",
+      "price": 3888,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "1402N",
+      "price": 3488,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "0905",
+      "price": 3596,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "0205",
+      "price": 3456,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "0805",
+      "price": 3596,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "4206N",
+      "price": 3506,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "4809N",
+      "price": 3506,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "6110N",
+      "price": 3479,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "6310N",
+      "price": 3573,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "2011N",
+      "price": 3461,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "3711N",
+      "price": 3533,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "6013N",
+      "price": 3524,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "3813N",
+      "price": 3434,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "5313N",
+      "price": 3501,
+      "timestamp": "Sat Aug 23 2025",
+      "site": "journaljc"
     }
   ]
 }
