@@ -2619,6 +2619,78 @@
       "price": 3501,
       "timestamp": "Mon Sep 01 2025",
       "site": "journaljc"
+    },
+    {
+      "residence": "3702N",
+      "price": 3659,
+      "timestamp": "Tue Sep 02 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "6302N",
+      "price": 3888,
+      "timestamp": "Tue Sep 02 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "0205",
+      "price": 3456,
+      "timestamp": "Tue Sep 02 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "0805",
+      "price": 3596,
+      "timestamp": "Tue Sep 02 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "2206N",
+      "price": 3443,
+      "timestamp": "Tue Sep 02 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "4809N",
+      "price": 3506,
+      "timestamp": "Tue Sep 02 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "6310N",
+      "price": 3573,
+      "timestamp": "Tue Sep 02 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "2011N",
+      "price": 3461,
+      "timestamp": "Tue Sep 02 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "6013N",
+      "price": 3524,
+      "timestamp": "Tue Sep 02 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "3813N",
+      "price": 3434,
+      "timestamp": "Tue Sep 02 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "3913N",
+      "price": 3434,
+      "timestamp": "Tue Sep 02 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "5313N",
+      "price": 3501,
+      "timestamp": "Tue Sep 02 2025",
+      "site": "journaljc"
     }
   ]
 }
