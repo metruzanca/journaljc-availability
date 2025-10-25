@@ -510,6 +510,181 @@
       "bathroom": "1",
       "size": 724,
       "site": "journaljc"
+    },
+    {
+      "residence": "1801N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 843,
+      "site": "journaljc"
+    },
+    {
+      "residence": "3701N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 843,
+      "site": "journaljc"
+    },
+    {
+      "residence": "6201N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 843,
+      "site": "journaljc"
+    },
+    {
+      "residence": "1602N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 730,
+      "site": "journaljc"
+    },
+    {
+      "residence": "4902N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 730,
+      "site": "journaljc"
+    },
+    {
+      "residence": "6202N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 730,
+      "site": "journaljc"
+    },
+    {
+      "residence": "0505",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 855,
+      "site": "journaljc"
+    },
+    {
+      "residence": "1505N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 855,
+      "site": "journaljc"
+    },
+    {
+      "residence": "1606N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 660,
+      "site": "journaljc"
+    },
+    {
+      "residence": "3206N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 660,
+      "site": "journaljc"
+    },
+    {
+      "residence": "5706N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 660,
+      "site": "journaljc"
+    },
+    {
+      "residence": "5909N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 736,
+      "site": "journaljc"
+    },
+    {
+      "residence": "1710N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 650,
+      "site": "journaljc"
+    },
+    {
+      "residence": "3510N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 650,
+      "site": "journaljc"
+    },
+    {
+      "residence": "5910N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 650,
+      "site": "journaljc"
+    },
+    {
+      "residence": "5211N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 750,
+      "site": "journaljc"
+    },
+    {
+      "residence": "4411N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 750,
+      "site": "journaljc"
+    },
+    {
+      "residence": "1412N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 861,
+      "site": "journaljc"
+    },
+    {
+      "residence": "3212N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 861,
+      "site": "journaljc"
+    },
+    {
+      "residence": "6212N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 861,
+      "site": "journaljc"
+    },
+    {
+      "residence": "0413",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 895,
+      "site": "journaljc"
+    },
+    {
+      "residence": "0913",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 895,
+      "site": "journaljc"
+    },
+    {
+      "residence": "1413N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 895,
+      "site": "journaljc"
+    },
+    {
+      "residence": "3713N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 895,
+      "site": "journaljc"
+    },
+    {
+      "residence": "5713N",
+      "bedroom": "1 Bedroom",
+      "bathroom": "1",
+      "size": 895,
+      "site": "journaljc"
     }
   ],
   "prices": [
@@ -11935,6 +12110,168 @@
       "residence": "6013N",
       "price": 3524,
       "timestamp": "Fri Oct 24 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "1801N",
+      "price": 3533,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "3701N",
+      "price": 3618,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "6201N",
+      "price": 3776,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "1602N",
+      "price": 3497,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "4902N",
+      "price": 3659,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "6202N",
+      "price": 3704,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "0505",
+      "price": 3492,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "1505N",
+      "price": 3519,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "5305N",
+      "price": 3848,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "1606N",
+      "price": 3272,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "3206N",
+      "price": 3344,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "5706N",
+      "price": 3546,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "5909N",
+      "price": 3479,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "1710N",
+      "price": 3276,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "3510N",
+      "price": 3366,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "5910N",
+      "price": 3389,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "5211N",
+      "price": 3533,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "4411N",
+      "price": 3443,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "0612",
+      "price": 3564,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "1412N",
+      "price": 3443,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "3212N",
+      "price": 3569,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "6212N",
+      "price": 3749,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "0413",
+      "price": 3578,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "0913",
+      "price": 3465,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "1413N",
+      "price": 3308,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "3713N",
+      "price": 3411,
+      "timestamp": "Sat Oct 25 2025",
+      "site": "journaljc"
+    },
+    {
+      "residence": "5713N",
+      "price": 3501,
+      "timestamp": "Sat Oct 25 2025",
       "site": "journaljc"
     }
   ]
