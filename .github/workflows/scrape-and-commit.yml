@@ -1,8 +1,8 @@
 name: Daily Website Scraper and Committer (Bun + TS)
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
+  #schedule:
+  #  - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
